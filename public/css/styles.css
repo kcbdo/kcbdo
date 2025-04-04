@@ -1,0 +1,184 @@
+* {
+    font-family: 'Roboto'
+}
+body 
+{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #aaa6a6;
+}
+
+header
+{
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+.row
+{
+    margin: 0;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    justify-content: center;
+
+}
+
+.container
+{
+    padding: 0;
+}
+
+.btn-primary 
+{
+    background-color: #F2A340;
+    border: 2px solid #C28008;
+}
+
+.btn-primary:hover
+{
+    background-color: #C28008;
+    border-color: #C28008;
+}
+.msg
+{
+    background-color: #939b95;
+    color: #0b0c0b;
+    border: 1px solid #939b95;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px; 
+}
+
+#navbar 
+{
+    width: 40px; 
+}
+
+#navar 
+{
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 5px 0;
+}
+#navbar a
+{
+    font-size: 14px;
+    color: #757575;
+}
+#navbar a:hover
+{
+    color: #0b0f0f;
+}
+#search-container
+{
+    
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+    background-image: url("../img/event.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 400px;
+    text-align: center;
+    display: flex !important;
+    flex-basis: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+}
+
+
+.navbar-expand-lg .navbar-collapse 
+{
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: column-reverse;
+}
+
+.col-md-12 {
+    display: flex !important;
+    flex-basis: auto;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#search-container h1
+{
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#search-container form
+{
+    width: 50%;
+    margin: 0 auto; 
+}
+#events-container 
+{
+    padding: 50px;
+
+}
+#events-container h2
+{
+    margin-bottom: 10px;
+}
+#events-container .subtitle
+{
+    color: #757575;
+    margin-bottom: 30px;
+}
+#cards-container
+{
+    display: flex; 
+}
+#events-container .card
+{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px; 
+}
+#event-create-container
+{
+    padding: 30px;
+
+}
+#event-create-container label
+{
+    font-weight: bold;
+}
+
+footer p
+{
+    text-align: center;
+    background-color: #353e48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    margin-bottom: 0;
+    display: flex !important;
+    flex-basis: auto;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-brand img {
+    width: 100vw; /* Ocupa 100% da largura da tela */
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+}
