@@ -9,6 +9,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+"teste";
+
 Route::get('/contact', function () 
 {
     return view('contact');
